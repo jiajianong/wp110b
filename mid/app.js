@@ -148,7 +148,7 @@ function drawSnake() {
 
 function drawScore() {
     ctx.fillStyle = "white";
-    ctx.font = "30px Poppins";
+    ctx.font = "10px Poppins";
     ctx.fillText("Score: " + score, canvas.width-50, 10);
 }
 
